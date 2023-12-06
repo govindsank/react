@@ -18,12 +18,16 @@
 
 import React from "react";
 import Dummy from "./dummy.jsx";
+
 import Count from "./Count.jsx";
 import  ReactDOM  from "react-dom/client";
-import App from "./app";
-import App2 from "./app2.jsx";
+import App from "./App";
+import App2 from "./App.jsx";
+import App5 from "./page1.jsx";
+// import App2 from "./app2.jsx";
 import Counter from "./counter.jsx";
+import App3 from "./form.jsx";
 let root =document.getElementById("root");
 
 
-ReactDOM.createRoot(root).render(<App2 />)
+ReactDOM.createRoot(root).render(< App5/>)
