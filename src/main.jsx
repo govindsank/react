@@ -1,6 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-
+import App5 from "./page1.jsx";
 import App2 from './App.jsx';
 
 let root = document.getElementById("root");
@@ -16,4 +16,4 @@ let root = document.getElementById("root");
 //     }
 // }
 
-ReactDOM.createRoot(root).render(<App2 />)
+ReactDOM.createRoot(root).render(<App5 />)
