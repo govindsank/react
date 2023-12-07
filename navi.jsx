@@ -8,6 +8,7 @@ function Nav(){
        <span><Link to={"/"}>Home</Link></span>
        <span><Link to={"/about"}>about</Link></span>
        <span><Link to={"/contact-us"}>Contact</Link></span>
+       <span><Link to={"/register"}>Register</Link></span>
        <span><Link to={"/login"}>Login</Link></span>
        </>
     );

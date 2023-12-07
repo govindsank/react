@@ -35,7 +35,7 @@ function Register({setLogin}){
       }
     })
     .catch(error=>{
-      alert(response.data);
+      alert(res.response.data);
       console.log(error);
     });
   };

@@ -14,7 +14,7 @@ class Counter extends React.Component{
         console.log(this.state.count);
         return this.state.count;
 
-    }
+    } 
     render(){
         return(
             <>
